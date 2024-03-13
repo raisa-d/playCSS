@@ -1,0 +1,80 @@
+<style>
+   body {
+      background: #d8dad3;
+      display:flex;
+      justify-content: center;
+   }
+   
+   main {
+      height: 90%;
+      width: 80%;
+      display:flex;
+      flex-flow: column;
+      align-self: center;
+   }
+   
+   .row {
+      flex: 1;
+
+      display:flex;
+   }
+   
+   .quarter {
+      flex: 1;
+   }
+   
+   .quarter1, .quarter2 {
+      border-top: 35px solid #4a4a48;
+      border-bottom: 17.5px solid #4a4a48;
+   }
+   
+   .quarter3, .quarter4 {
+      border-top: 17.5px solid #4a4a48;
+      border-bottom: 35px solid #4a4a48;
+   }
+   
+   .quarter1, .quarter3 {
+      border-right: 17.5px solid #4a4a48;
+   }
+   
+   .quarter2, .quarter4 {
+      border-left: 17.5px solid #4a4a48;
+   }
+   
+   .quarter1, .quarter4 {
+      display: flex;
+      justify-content: center;
+   }
+   
+   .triangle {
+      width: 0;
+      height: 0;
+      align-self: center;
+      border-left: 35px solid transparent;
+      border-right: 35px solid transparent;
+      border-bottom: 60px solid #4a4a48;
+   }
+   
+   .triangle2 {
+      transform: rotate(180deg);
+   }
+   
+   
+</style>
+
+<body>
+   <main>
+      <div class='row'>
+         <div class='quarter quarter1'>
+            <div class="triangle"></div>
+         </div>
+         <div class='quarter quarter2'></div>
+      </div>
+      <div class='row'>
+         <div class='quarter quarter3'></div>
+         <div class='quarter quarter4'>
+            <div class="triangle triangle2"></div>
+         </div>
+      </div>
+   </main>
+</body>
