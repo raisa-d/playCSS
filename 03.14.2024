@@ -1,0 +1,60 @@
+<style>
+    body {
+       background: #eaccc7;
+       display:flex;
+       justify-content:center;
+    }
+    
+    main {
+       border-top: 50px solid #d44cab;
+       border-radius: 15px;
+       width: 20rem;
+       height: 55%;
+       align-self: center;
+       display: flex;
+       justify-content: space-between;
+    }
+    
+    .drip {
+       height: 30%;
+       width: 25%;
+       background: #d44cab;
+       border-radius: 0 0 20px 20px;
+    }
+    
+    .drip:not(:last-child) {
+       margin-right: 1rem;
+    }
+    
+    .drip1 {
+       height: 50%;
+    }
+    
+    .drip2 {
+       height: 80%;
+    }
+    
+    .drip3 {
+       height: 65%;
+    }
+    
+    .drip4 {
+       height: 100%;
+    }
+    
+    .drip6 {
+       height: 80%;
+    }
+    
+ </style>
+ 
+ <body>
+    <main>
+       <div class="drip drip1"></div>
+       <div class="drip drip2"></div>
+       <div class="drip drip3"></div>
+       <div class="drip drip4"></div>
+       <div class="drip"></div>
+       <div class="drip drip6"></div>
+    </main>
+ </body>
