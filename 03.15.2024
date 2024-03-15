@@ -1,0 +1,36 @@
+<style>
+    body {
+       background: #288b77;
+       font-size: 62.5%;
+       display:flex;
+       flex-flow:column;
+    }
+    
+    .circle {
+       background: #62dfc5;
+       width: 8rem;
+       height: 8rem;
+       border-radius: 50%;
+       align-self:center;
+       margin-bottom: 0.7rem;
+    }
+    
+    .full {
+       margin-top:1rem;
+    }
+    
+    .semi {
+       border-radius: 0 0 5rem 5rem;
+       height: 3.7rem;
+       width: 7.5rem;
+       margin-bottom: 1rem;
+    }
+    
+ </style>
+ 
+ <body>
+    <div class='full circle'></div>
+    <div class='semi circle'></div>
+    <div class='semi circle'></div>
+    <div class='semi circle'></div>
+ </body>
