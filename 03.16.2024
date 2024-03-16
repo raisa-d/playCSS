@@ -1,0 +1,52 @@
+<style>
+   body {
+      font-size: 62.5%;
+      background: #d0eeff;
+      border: 1px solid black;
+      margin: 0;
+      display: flex;
+      flex-flow: column;
+   }
+   
+   .line {
+      background: #8995cd;
+      height: 4.8rem;
+      width: 1.4rem;
+      align-self:center;
+   }
+   
+   .box {
+      border: 20px solid #8995cd;
+      border-top:10px solid #8995cd;
+      border-bottom: 10px solid #8995cd;
+      width: 5rem;
+      height: 1.4rem;
+      align-self:center;
+   }
+   
+   .med-box {
+      width: 8rem;
+      border: 25px solid #8995cd;
+      border-top:10px solid #8995cd;
+      border-bottom:10px solid #8995cd;
+   }
+   
+   .lg-box {
+      width: 11rem;
+      border: 28px solid #8995cd;
+      border-top:10px solid #8995cd;
+      border-bottom:10px solid #8995cd;
+   }
+   
+</style>
+
+<body>
+   <div class="line"></div>
+   <div class="box"></div>
+   <div class="box med-box"></div>
+   <div class="box lg-box"></div>
+   <div class="box lg-box"></div>
+   <div class="box med-box"></div>
+   <div class="box"></div>
+   <div class="line"></div>
+</body>
