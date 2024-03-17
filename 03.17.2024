@@ -1,0 +1,71 @@
+<style>
+   html {
+      font-size: 62.5%;
+   }
+   
+   body {
+      background: #371633;
+      display:flex;
+      flex-flow:column;
+      align-items:center;
+   }
+   
+   .circle {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+   }
+   
+   .circle, .square {
+      background: #f1ebca;
+   }
+   
+   .sm {
+      margin: 2rem 0 1.5rem 0;
+   }
+   
+   .med {
+      width: 5rem;
+      height: 5rem;
+   }
+   
+   .lg {
+      width: 8rem;
+      height: 8rem;
+      border: 10px solid #371633;
+      position:relative;
+   }
+   
+   .c1 {
+      bottom:5rem;
+      left: 3rem;
+      margin-top:0.5rem;
+   }
+   
+   .c2 {
+      bottom:4rem;
+      right: 6rem;
+   }
+   
+   .c3 {
+      bottom: 14rem;
+      left: 12rem;
+   }
+   
+   .square {
+      margin-top: 5rem;
+      width: 16rem;
+      height: 25rem;
+   }
+   
+</style>
+
+<body>
+   <div class="circle sm"></div>
+   <div class="circle med"></div>
+   <div class="square">
+      <div class="circle lg c1"></div>
+      <div class="circle lg c2"></div>
+      <div class="circle lg c3"></div>
+   </div>
+</body>
