@@ -35,3 +35,11 @@
     <img width="500" alt="Side By Side of My Code Output vs the Reference Picture" src="https://github.com/raisa-d/playCSS/assets/144272001/5f845d4c-7474-4ef5-b65f-dd321cd71455">
   </a>
 </p>
+
+
+<h3 align="center">March 18, 2024</h3>
+<p align="center">
+  <a href="https://github.com/raisa-d/playCSS/blob/9e319b6857c5bf4a9e1b1db8f4903157d962205b/03.18.2024">
+    <img width="500" alt="Side By Side of My Code Output vs the Reference Picture" src="https://github.com/raisa-d/playCSS/assets/144272001/c3cce5e5-418b-4eba-88d4-e5fef9aa0b82">
+  </a>
+</p>
