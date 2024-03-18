@@ -1,0 +1,118 @@
+<style>
+    /* BASE STYLES */
+    html {
+       font-size: 62.5%;
+    }
+    
+    body {
+       background: #0094b0;
+    }
+
+    /* FLEXBOX */
+    body, .main, .top-squares, .bottom-squares, .middle, .mid-square, .sm-square, .sm2-square, .diamond {
+        display: flex;
+    }
+
+    .diamond, body, .sm-square, .sm2-square,.mid-square {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mid-square, .middle {
+        align-items: center;
+    }
+
+    .smallest, .sm2-square, .sm-square, .mid-square {
+        border-radius: 20px;
+    }
+
+    .sm2-square, .mid-square, .diamond, .square {
+       background: #fff4e2;
+    }
+
+    .main {
+       width:27rem; 
+       height: 27rem;
+    }
+    
+    .square {
+       height: 5rem;
+       width: 5rem;
+    }
+    
+    .top-squares, .bottom-squares {
+       flex: 1;
+    }
+    
+    .top-squares, .bottom-squares {
+       flex-flow: column;
+       justify-content: space-between;
+    }
+    
+    .bottom-squares > .square {
+       align-self: flex-end
+    }
+    
+    .middle {
+       flex: 4;
+    }
+    
+    .diamond {
+       width: 17rem;
+       height: 17rem;
+    }
+
+    .mid-square {
+       border: 12px solid #fff4e2;
+       width: 14rem;
+       height: 14rem;
+    }
+
+    .mid-square, .main {
+        transform: rotate(45deg);
+    }
+
+    .smallest, .sm-square {
+       background: #0094b0;
+    }
+    
+    .sm-square {
+       border: 15px solid #0094b0;
+    }
+
+    .sm2-square, .sm-square {
+       width: 10rem;
+       height: 10rem;
+    }
+    
+    .smallest {
+       height: 7rem;
+       width: 7rem;
+       border-radius: 25px;
+    }
+    
+ </style>
+ 
+ <body>
+    <div class="main">
+       <div class="top-squares">
+          <div class="square"></div>
+          <div class="square"></div>
+       </div>
+       <div class="middle">
+          <div class="diamond">
+             <div class="mid-square">
+                <div class="sm-square">
+                   <div class="sm2-square">
+                      <div class="smallest"></div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="bottom-squares">
+          <div class="square"></div>
+          <div class="square"></div>
+       </div>
+    </div>
+ </body>
