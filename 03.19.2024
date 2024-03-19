@@ -1,0 +1,93 @@
+<style>
+   body {
+      flex-direction: column;
+      font-size: 62.5%;
+      margin:0;
+   }
+   
+   .gray-background {
+      background: #616163;
+   }
+   
+   .pink-background {
+      background: #ffbfa0;
+   }
+   
+   section:first-child {
+      height: 47%;
+   }
+   
+   section:last-child {
+      height:53%;
+   }
+   
+   .flex-container {
+      display: flex;
+   }
+   
+   .flex-center {
+      justify-content: center;
+      align-items:center;
+   }
+   
+   .outer {
+      height: 100%;
+      width: 38%;
+   }
+   
+   .semi-circle {
+      border-radius: 0 0 80px 80px;
+   }
+   
+   .inner {
+      height: 100%;
+      width: 85%;
+      position: relative;
+      bottom: 10px;
+   }
+   
+   .inner2 {
+      height: 100%;
+      width: 90%;
+      position: relative;
+      bottom: 10px;
+   }
+   
+   .inner4 {
+      height: 88%;
+      width: 80%;
+   }
+   
+   .diamond {
+      width: 3rem;
+      height: 3rem;
+      transform: rotate(45deg);
+   }
+   
+   .stick {
+      height: 100%;
+      width: 2.3rem;
+      margin: 0 1.4rem;
+      border-radius: 50px 50px 0 0;
+   }
+   
+</style>
+
+<body class="flex-container gray-background">
+   <section class="flex-container flex-center">
+      <div class="outer pink-background semi-circle flex-container flex-center">
+         <div class="inner2 semi-circle gray-background flex-container flex-center">
+            <div class="inner semi-circle pink-background flex-container flex-center">
+               <div class="inner semi-circle gray-background flex-container flex-center">
+                  <div class="inner4 semi-circle pink-background"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="flex-container flex-center">
+      <div class="diamond pink-background"></div>
+      <div class="stick pink-background"></div>
+      <div class="diamond pink-background"></div>
+   </section>
+</body>
