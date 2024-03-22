@@ -1,5 +1,5 @@
 <h1 align="center">playCSS Challenge Solutions</h1>
-<p align="center">This repository contains my solutions for the <a href="https://playcss.app/" target="_blank">daily playCSS challenges</a> to practice my CSS skills! Click on the image to see the code!</p>
+<p align="center">This repository contains my solutions for the <a href="https://playcss.app/" target="_blank">daily playCSS challenges</a>--where you are given a target shape and have to attempt to recreate it--to practice my CSS skills! Click on the image to see the code!</p>
 
 <h3 align="center">March 22, 2024</h3>
 <p align="center">
