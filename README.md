@@ -1,6 +1,13 @@
 <h1 align="center">playCSS Challenge Solutions</h1>
 <p align="center">This repository contains my solutions for the <a href="https://playcss.app/" target="_blank">daily playCSS challenges</a> to practice my CSS skills!</p>
 
+<h3 align="center">March 22, 2024</h3>
+<p align="center">
+  <a href="https://github.com/raisa-d/playCSS/blob/be214cc2895082f83832dc5ff699f6efadef3324/03.22.2024">
+    <img width="500" alt="Side By Side of My Code Output vs the Reference Picture" src="https://github.com/raisa-d/playCSS/assets/144272001/f6912e55-1aa9-4da9-84e5-8662fbd65bd6">
+  </a>
+</p>
+
 <h3 align="center">March 19, 2024</h3>
 <p align="center">
   <a href="https://github.com/raisa-d/playCSS/blob/af085a84c935b7e872012da3876df726ad89c839/03.19.2024">
