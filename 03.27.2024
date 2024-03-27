@@ -1,0 +1,78 @@
+<style>
+   body {
+      background: #404b55;
+      margin:0;
+   }
+   
+   .flex {
+      display:flex;
+   }
+   
+   .col {
+      flex-flow: column;
+   }
+   
+   section {
+      /*border: 1px dotted #fff;*/
+      flex:1;
+   }
+   
+   .space-between {
+      justify-content:space-between;
+   }
+   
+   .circle {
+      width: 65%;
+      height: 5.5rem;
+      border-radius: 0 100% 0 0;
+   }
+   
+   .square {
+      width: 95%;
+      height: 8rem;
+      border-radius:0 0 35px 0;
+   }
+   
+   .circle, .square, .oh {
+      background: #f1ceae;
+   }
+   
+   .center {
+      justify-content:center;
+      align-items:center;
+   }
+   
+   .oh {
+      width: 5.1rem;
+      height:5.1rem;
+      border-radius: 100%;
+   }
+   
+   .inner {
+      background: #404b55;
+      height: 3.4rem;
+      width: 1.7rem;
+      border-radius: 100%;
+   }
+   
+   .c1, .s1 {
+      transform:rotate(180deg);
+      align-self:flex-end;
+   }
+</style>
+
+<body class='flex'>
+   <section class='flex col space-between'>
+      <div class='square'></div>
+      <div class='circle'></div>
+   </section>
+   <section class='flex center'>
+      <div class='oh flex center'>
+         <div class='inner'></div>
+      </div>
+   </section>
+   <section class='flex col space-between'>
+      <div class='circle c1'></div>
+      <div class='square s1'></div>
+   </section>
+</body>
