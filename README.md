@@ -1,5 +1,21 @@
 <h1 align="center">playCSS Challenge Solutions</h1>
-<p align="center">This repository contains my solutions for the <a href="https://playcss.app/" target="_blank">daily playCSS challenges</a>--where you are given a target shape and have to attempt to recreate it--to practice my CSS skills! Click on the image to see the code!</p>
+
+<p align="center">
+  This repository contains my solutions for the 
+    <a href="https://playcss.app/" target="_blank">daily playCSS challenges</a>
+  --where you are given a target shape and have to attempt to recreate it--to practice my CSS skills!
+</p>
+
+<p align="center">
+  Click on each image to go to the code for that challenge!
+</p>
+
+<h3 align="center">March 28, 2024</h3>
+<p align="center">
+  <a href="https://github.com/raisa-d/playCSS/blob/d0ff1b3a768529ff16a5db0dce99a13bfe114fcd/03.28.2024">
+    <img width="500" alt="Side By Side of My Code Output vs the Reference Picture" src="https://github.com/raisa-d/playCSS/assets/144272001/89ea3781-d66b-465d-880d-aaacdd29de18">
+  </a>
+</p>
 
 <h3 align="center">March 27, 2024</h3>
 <p align="center">
