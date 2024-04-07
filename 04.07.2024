@@ -1,0 +1,92 @@
+<style>
+   body {
+      background: #ff7088;
+      display:flex;
+      flex-flow: column;
+      font-size: 62.5%;
+      width: 90%;
+      margin: 0.5rem 1rem; 
+   }
+   
+   .row {
+      /*border: 1px solid white;*/
+      display:flex;
+      height: 3.8rem;
+   }
+   
+   .row1 {
+      justify-content: space-between;
+      align-items: center; 
+   }
+   
+   .row2 {
+      margin-top:0.5rem;
+   }
+   
+   .inv-square, .square {
+      height: 3rem;
+      width: 3rem;
+   }
+   .square {
+      background: #ecc1d2;
+      margin-right: 1rem;
+   }
+   
+   .last {
+      position: relative;
+      left: 1rem;
+      top:1rem;
+   }
+   
+</style>
+
+<body>
+   <div class="row row1">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="inv-square"></div>
+   </div>
+   <div class="row row2">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="inv-square"></div>
+      <div class="square last"></div>
+   </div>
+   <div class="row">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="inv-square"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+   </div>
+   <div class="row">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="inv-square"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+   </div>
+   <div class="row">
+      <div class="square"></div>
+      <div class="inv-square"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+   </div>
+   <div class="row">
+      <div class="inv-square"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+      <div class="square last"></div>
+   </div>
+</body>
