@@ -1,0 +1,91 @@
+<style>
+   body {
+      background: #616286;
+      margin:0;
+   }
+   
+   .flex {
+      display:flex;
+   }
+   
+   .space-between {
+      justify-content:space-between;
+   }
+   
+   .space-around {
+      justify-content:space-around;
+   }
+   
+   .center {
+      justify-content:center;
+   }
+   
+   .col {
+      flex-flow: column;
+   }
+   
+   .row {
+      /*border:1px solid white;*/
+      height: 29%;
+   }
+   
+   .tall {
+      height: 35.5%;
+   }
+   
+   .square {
+      height: 100%;
+      width: 9rem;
+      border-radius: 0 0 50px 0;
+   }
+   
+   .square, .rect {background: #d49af8;}
+   
+   .sq-2 {border-radius: 0 0 0 50px;}
+   
+   .sq-3 {border-radius: 0 50px 0 0;}
+   
+   .sq-4 {border-radius: 50px 0 0 0;}
+   
+   .rect {
+      height: 1.3rem;
+      width: 5rem;
+   }
+   
+   .inner-row {
+      height:30%;
+      justify-content:space-around;
+      width: 75%;
+      align-items:center;
+   }
+   
+   .top {
+      margin-left:0.7rem;
+   }
+   
+   .bottom {
+      margin-left: 5.5rem;
+   }
+   
+</style>
+
+<body class="flex col">
+   <div class="row tall flex space-between">
+      <div class="square"></div>
+      <div class="square sq-2"></div>
+   </div>
+   <div class="row flex col center">
+      <div class="inner-row flex top">
+         <div class="rect"></div>
+         <div class="rect"></div>
+      </div>
+      <div class="inner-row flex bottom">
+         <div class="rect"></div>
+         <div class="rect"></div>
+      </div>
+   </div>
+   <div class="row tall flex space-between">
+      <div class="square sq-3"></div>
+      <div class="square sq-4"></div>
+   </div>
+</body>
