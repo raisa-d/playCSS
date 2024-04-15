@@ -1,0 +1,82 @@
+<style>
+    body {
+       background: #e1054b;
+       margin:0;
+       display:grid;
+       grid-template: repeat(5, 1fr) / repeat(6, 1fr);
+    }
+    
+    .line {
+       background: #cebbc9;
+       border-radius: 0 0 50px 50px;
+       position: relative;
+    }
+
+    .l1, .l2 {
+        grid-column: 1;
+        grid-row: span 2;
+    }
+
+    .l1, .l2, .l3 {
+        transform: rotate(-45deg);
+    }
+    
+    .l1 {
+       right: 0.7rem;
+       bottom: 0.3rem;
+    }
+    
+    .l2 {
+       top: 4rem;
+       right: 2rem;
+    }
+    
+    .l3 {
+       grid-column: 2;
+       grid-row: 1 / 4;
+       bottom: 5rem;
+       left: 0.5rem;
+    }
+
+    .l4, .l5, .l6, .l7 {
+        transform: rotate(135deg);
+    }
+    
+    .l4 {
+       grid-column: 6;
+       grid-row: 1 / 4;
+       top: 0.4rem;
+    }
+    
+    .l5 {
+       grid-column: 6;
+       grid-row: 3 / 5;
+       top: 0.5rem;
+    }
+
+    .l6, .l7 {
+        grid-row: 2 / 6;
+    }
+    
+    .l6 {
+       grid-column:5;
+       top: 7rem;
+       left: 2.2rem;
+    }
+    
+    .l7 {
+       grid-column: 2;
+       top: 7.5rem;
+       left: 7.2rem;
+    }
+ </style>
+ 
+ <body>
+    <div class="line l1"></div>
+    <div class="line l2"></div>
+    <div class="line l3"></div>
+    <div class="line l4"></div>
+    <div class="line l5"></div>
+    <div class="line l6"></div>
+    <div class="line l7"></div>
+ </body>
