@@ -1,0 +1,61 @@
+<style>
+   body {
+      background: #9e7c7b;
+      margin: 3.5rem 0;
+   }
+   
+   .flex {
+      display:flex;
+   }
+   
+   .col {
+      flex-flow: column;
+   }
+   
+   section {
+      flex:1;
+   }
+   
+   .sect2 {
+      position:relative;
+      right: 0.8rem;
+   }
+   
+   .center {
+      justify-content:space-around;
+      align-items:center;
+   }
+   
+   .oval, .diamond {
+      background: #c8c8c8;
+      height: 2rem;
+      width: 2rem;
+   }
+   
+   .oval {
+      height: 3.5rem;
+      width: 9rem;
+      border-radius: 35px;
+   }
+   
+   .diamond {
+      transform: rotate(45deg);
+   }
+</style>
+
+<body class="flex">
+   <section class="flex col center">
+      <div class="oval"></div>
+      <div class="diamond"></div>
+      <div class="oval"></div>
+      <div class="diamond"></div>
+      <div class="oval"></div>
+   </section>
+   <section class="flex col center sect2">
+      <div class="diamond"></div>
+      <div class="oval"></div>
+      <div class="diamond"></div>
+      <div class="oval"></div>
+      <div class="diamond"></div>
+   </section>
+</body>
