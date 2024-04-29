@@ -6,6 +6,13 @@
   --where you are given a target shape and have to attempt to recreate it--to practice my CSS skills!
 </p>
 
+## Table of Contents
+- [Challenge Images](challenge-images)
+- [How It's Made](how-its-made)
+- [Lessons Learned](lessons-learned)
+- [Contact](#contact)
+
+<h2 align="center">Challenge Images</h2>
 <p align="center">
   Click on each image to go to the code for that challenge!
 </p>
@@ -114,4 +121,26 @@
   <a href="https://github.com/raisa-d/playCSS/blob/3447b90941e153f22484b3105199820aecf3e80b/03.13.2024%20Challenge">
     <img width="500" alt="Side By Side of My Code Output vs the Reference Picture" src="https://github.com/raisa-d/playCSS/assets/144272001/232c3620-5060-4073-82b6-846c72287453">
   </a>  
+</p>
+
+## How It's Made
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
+</a> 
+<p>I complete the playCSS challenges using-- you guessted it-- CSS! I use vanilla CSS with Flexbox or CSS Grid depending on the layout of the target image.</p>  
+
+## Lessons Learned
+<p>Completing these challenges has made me MUCH better at CSS. It truly does challenge me to learn new things from how to make a triangle to CSS grid, which I was previously intrigued by and learned to complete one of the challenges. Doing these challenges has elevated my front-end skills tenfold and that is reflected in my web apps! I am currently working on <a href="https://github.com/raisa-d/Spellweaver">Spellweaver</a> and am very excited by the front-end and back-end functionality!</p>
+
+## Contact
+<p> 
+  <a href="https://raisadorzback.netlify.app/" target="blank">
+    <img src="https://img.shields.io/badge/Website-563d7c?&style=for-the-badge" alt="Website">
+  </a>
+  <a href="https://www.linkedin.com/in/raisa-d/">
+    <img src="https://img.shields.io/badge/LinkedIn-046E6D?logo=linkedin&style=for-the-badge">
+  </a>
+  <a href="https://twitter.com/rai__bread" target="blank">
+    <img src="https://img.shields.io/badge/Twitter-563d7c?logo=twitter&style=for-the-badge&logoColor=white" alt="rai__bread" />
+  </a> 
 </p>
