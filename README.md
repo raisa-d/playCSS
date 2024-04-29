@@ -7,12 +7,14 @@
 </p>
 
 ## Table of Contents
-- [Challenge Images](challenge-images)
-- [How It's Made](how-its-made)
-- [Lessons Learned](lessons-learned)
-- [Contact](#contact)
+<ul>
+  <li><a href="#challenge-images">Challenge Images</a></li>
+  <li><a href="#how-its-made">How It's Made</a></li>
+  <li><a href="#lessons">Lessons Learned</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
 
-<h2 align="center">Challenge Images</h2>
+<h2 align="center" id="challenge-images">Challenge Images</h2>
 <p align="center">
   Click on each image to go to the code for that challenge!
 </p>
@@ -123,16 +125,16 @@
   </a>  
 </p>
 
-## How It's Made
+<h2 id="how-its-made">How It's Made</h2>
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
 </a> 
 <p>I complete the playCSS challenges using-- you guessted it-- CSS! I use vanilla CSS with Flexbox or CSS Grid depending on the layout of the target image.</p>  
 
-## Lessons Learned
+<h2 id="lessons">Lessons Learned</h2>
 <p>Completing these challenges has made me MUCH better at CSS. It truly does challenge me to learn new things from how to make a triangle to CSS grid, which I was previously intrigued by and learned to complete one of the challenges. Doing these challenges has elevated my front-end skills tenfold and that is reflected in my web apps! I am currently working on <a href="https://github.com/raisa-d/Spellweaver">Spellweaver</a> and am very excited by the front-end and back-end functionality!</p>
 
-## Contact
+<h2 id="contact">Contact</h2>
 <p> 
   <a href="https://raisadorzback.netlify.app/" target="blank">
     <img src="https://img.shields.io/badge/Website-563d7c?&style=for-the-badge" alt="Website">
