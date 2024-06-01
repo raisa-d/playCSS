@@ -1,0 +1,88 @@
+<style>
+   body {
+      background: #ff7eab;
+      margin:0;
+   }
+   
+   /* FLEXBOX */
+   
+   .flex {
+      display:flex;
+   }
+   
+   .col {
+      flex-flow:column;
+   }
+   
+   .center {
+      justify-content: center;
+   }
+   
+   .align-items {
+      align-items:center;
+   }
+   
+   /* LAYOUT */
+   .row {
+      border: 1px dashed transparent;
+      height:26%;
+      position:relative;
+      bottom:0.5rem;
+   }
+   
+   .middle {
+      height:48%;
+   }
+   
+   /* SEMI CIRCLES */
+   .semi-c {
+      height: 11.2rem;
+      width: 11.3rem;
+      background: #1b065e;
+      border-radius: 50%;
+      position:relative;
+   }
+   
+   .c1 {
+      bottom: 5rem;
+   }
+   
+   .c2 {
+      right: 3.8rem;
+   }
+   
+   .c2, .c3 {
+      height: 11.3rem;
+      width: 11.1rem;
+   }
+   
+   .c3 {
+      left:3.8rem;
+   }
+   
+   .c4 {
+      top: 1rem;
+   }
+   
+   .circle {
+      height: 4rem;
+      width: 5rem;
+      border: 25px solid #1b065e;
+      border-radius: 50%;
+   }
+   
+</style>
+
+<body class="flex col">
+   <div class="row flex center">
+      <div class="semi-c c1"></div>
+   </div>
+   <div class="row middle flex align-items">
+      <div class="semi-c c2"></div>
+      <div class="circle"></div>
+      <div class="semi-c c3"></div>
+   </div>
+   <div class="row flex center">
+      <div class="semi-c c4"></div>
+   </div>
+</body>
