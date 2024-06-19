@@ -1,0 +1,84 @@
+<style>
+/* FLEXBOX */
+.flex {display:flex;}
+
+.col {flex-flow:column;}
+
+.space-between {justify-content:space-between}
+
+.center {justify-content: center;}
+
+/* LAYOUT */
+body {
+   background: #12A9B0;
+   margin:0;
+}
+
+div {
+   width: 25%;
+}
+
+#middle {
+   width: 50%;
+   /*margin-right: 1rem;*/
+}
+
+/* SEMI-CIRCLE STYLES */
+.semi-circle {
+   height: 7.4rem;
+   width: 7.4rem;
+   border-radius: 50%;
+   position:relative;
+}
+
+.c1, .c2 {right: 3rem;}
+
+.c1 {bottom: 3rem;}
+
+.c2 {top: 3rem;}
+
+.c3, .c4 {left: 1.7rem;}
+.c3 {bottom: 2.9rem;}
+.c4 {top: 2.9rem;}
+
+.white {background: #fff;}
+
+.pink {background: #E3747A;}
+
+/* BIG CIRCLES */
+.big-circle {
+   height: 11.4rem;
+   width: 11.4rem;
+   border-radius:50%;
+   position:relative;
+   left:7px;
+}
+
+.small-circle {
+   height: 6.8rem;
+   width:6.8rem;
+   position:absolute;
+   border-radius:50%;
+   left:9.2rem;
+   z-index:1;
+}
+
+</style>
+
+<body class="flex">
+   <div class="flex col space-between">
+      <div class="semi-circle white c1"></div>
+      <div class="semi-circle pink c2"></div>
+   </div>
+   
+   <div id="middle" class="flex col center">
+      <div class="pink big-circle"></div>
+      <div class="white small-circle"></div>
+      <div class="pink big-circle"></div>
+   </div>
+   
+   <div class="flex col space-between">
+      <div class="semi-circle pink c3"></div>
+      <div class="semi-circle white c4"></div>
+   </div>
+</body>
