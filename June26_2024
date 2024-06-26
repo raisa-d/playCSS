@@ -1,0 +1,62 @@
+<style>
+   body {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background: #F1E7D7;
+  font-size:62.5%;
+   }
+   
+   .yinyang {
+     position: relative;
+     background: #fff;
+     height: 260px;
+     width: 130px;
+     border: 1px solid #0F1321;
+     border-width: 5px 130px 5px 5px;
+     border-radius: 50%;
+     transform: scaleX(-1);
+   } 
+   
+   .yinyang:before {
+     width: 3.2rem;
+     height: 3.2rem;
+     background: #fff;
+     border: 45px solid #0F1321;
+     border-radius: 50%;
+     content: '';
+     position: absolute;
+     top: -2px;
+     left:55%;
+     }
+   
+   
+   .yinyang:after {
+     content: '';
+     width: 3rem;
+     height: 3rem;
+     background: #0F1321;
+     border: 39px solid #fff;
+     border-radius: 50%;
+     position: absolute;
+     top: 52%;
+     left: 40%;
+   }
+   
+   .extra {
+    content: '';
+     width: 3rem;
+     height: 3rem;
+     border: 5px solid #0F1321;
+     border-radius: 50%;
+     background: white;
+     position:absolute;
+     top:15rem;
+     left:12rem;
+   }
+</style>
+
+<body>
+   <div class="yinyang"></div>
+   <div class="extra"></div>
+</body>
