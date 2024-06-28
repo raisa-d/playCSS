@@ -1,0 +1,57 @@
+<style>
+   body {
+      background: #EFBE65;
+      font-size:62.5%;
+      margin: 0 5rem;
+   }
+   
+   .square {
+      background: #EFBE65;
+      height: 7.3rem;
+      width: 7.3rem;
+   }
+   
+   .big {
+      border-top: 7.3rem solid #3d63c7;
+   }
+   
+   .s2 {
+      background: #3d63c7;
+      position:relative;
+      left: 7.3rem;
+   }
+   
+   .shadow {
+      height:7.3rem;
+      width:7.3rem;
+      background: #222328;
+      border-top: 7.3rem solid #222328;
+      position: absolute;
+      z-index:-1;
+      top: 6.9rem;
+      left:3.8rem;
+   }
+   
+   .shadow2 {
+      width: 7.3rem;
+      height: 3rem;
+      position:absolute;
+      background: #222328;
+      top: 18.48rem;
+      left:11rem;
+      z-index:-1;
+   }
+   
+   .flex {
+      display:flex;
+      align-items:center;
+   }
+</style>
+
+<body class="flex">
+   <div class="shadow"></div>
+   <div class="shadow2"></div>
+   <div class="square big">
+      <div class="square s2"></div>
+   </div>
+</body>
