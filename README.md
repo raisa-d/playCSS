@@ -171,7 +171,10 @@
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
 </a> 
-<p>I complete the playCSS challenges using-- you guessted it-- CSS! I use vanilla CSS with Flexbox or CSS Grid depending on the layout of the target image.</p>  
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
+</a> 
+<p>I complete the playCSS challenges using-- you guessted it-- CSS3 & HTML5! I use vanilla CSS with Flexbox or CSS Grid depending on the layout of the target image.</p>  
 
 <h2 id="lessons">Lessons Learned</h2>
 <p>Completing these challenges has made me MUCH better at CSS. It truly does challenge me to learn new things from how to make a triangle to CSS grid, which I was previously intrigued by and learned to complete one of the challenges. Doing these challenges has elevated my front-end skills tenfold and that is reflected in my web apps! I am currently working on <a href="https://github.com/raisa-d/Spellweaver">Spellweaver</a> and am very excited by the front-end and back-end functionality!</p>
