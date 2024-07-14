@@ -19,6 +19,13 @@
   Click on each image to go to the code for that challenge!
 </p>
 
+<h3 align="center">July 14, 2024</h3>
+<p align="center">
+  <a href="https://github.com/raisa-d/playCSS/blob/4f4448f5ecb8471236f661949cd7a6c402fa546c/July14_2024.html">
+    <img width="500" alt="Side By Side of My Code Output vs the Reference Picture" src="https://github.com/user-attachments/assets/526cab75-8564-48b9-a197-45191691abc8">
+  </a>
+</p>
+
 <h3 align="center">June 28, 2024</h3>
 <p align="center">
   <a href="https://github.com/raisa-d/playCSS/blob/62beea80c795f03944e2edfdb881893ba6e35da1/June28_2024.html">
