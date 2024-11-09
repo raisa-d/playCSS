@@ -1,0 +1,52 @@
+<style>
+  body { 
+    background: #dcd8c6;
+    font-size: 62.5%;
+    margin: 0;
+  }
+
+  .circle {
+    background: #1b1b1b;
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 50%;
+  }
+
+  #square {
+    border: .3rem solid #ff2401;
+    height: 12.2rem;
+    width: 12.2rem;
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .c1 {
+    margin-top: 2.2rem;
+  }
+  
+  .c2 {
+    align-self: flex-end;
+    margin-bottom: 2.2rem;
+  }
+</style>
+<div id="square"></div>
+
+<div class="flex">
+  <div class="row flex">
+    <div class="circle c1"></div>
+  </div>
+  <div class="row flex">
+    <div class="circle c2"></div>
+  </div>
+</div>
